@@ -3391,8 +3391,8 @@
         box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7);
         border-radius: 40px;
         mask-size: cover;
-        width: 47vw;
-        height: 50vh;
+        width: 50vw;
+        height: 53vh;
         left: 23vw;
         top: 110vh;
     }
@@ -3406,7 +3406,7 @@
         border-radius: 50%;
         position: relative;
         top: 100px;
-        left: 50px;
+        left: 66px;
     }
 
 
