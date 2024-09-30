@@ -3378,7 +3378,7 @@
     
         background-color: blue;
         width: 100vw;
-        height: 180vh;
+        height: 200vh;
         display: flex;
         flex-direction: column;
 
@@ -3491,7 +3491,7 @@
         width: 52vw;
         height: 53vh;
         left: 23vw;
-        top: 230vh;
+        top: 240vh;
     }
 
 
@@ -3530,14 +3530,14 @@
 
     .cards2 .up{
        position: absolute;
-       top: 263vh;
+       top: 283vh;
        
     }
 
 
     .cards5{
         background-color: blueviolet;
-        height: 115vh;
+        height: 135vh;
         width: 100vw;
         display: flex;
         flex-direction: column;
@@ -3558,7 +3558,7 @@
         width: 52vw;
         height: 55vh;
         left: -7vw;
-        top: 280vh;
+        top: 300vh;
        
     }
 
@@ -3642,7 +3642,7 @@
 
     .depo .up{
         position: absolute;
-        top: 403vh;
+        top: 443vh;
        
     }
 
@@ -3770,10 +3770,11 @@
 
     .formulario{
         width: 100vw;
-        height: 50vh;
+        height: 75vh;
         display: flex;
         flex-direction: column;
     }
+
 
     .col-right input{
         margin-right: 11px;
@@ -3799,10 +3800,11 @@
     }
 
     .box-form{
-        height: 85vh;
+        height: 70vh;
         width: 80vw;
         display: flex;
         flex-direction: column;
+        margin-bottom: 50px;
     }
 
     .col-left{
