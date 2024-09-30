@@ -3321,7 +3321,8 @@
         margin-left: 10vw;
         margin-top: 5vw;
         margin-right:10vw;
-        height: 80vw;
+        height: 190vw;
+        width: 76vw;
         padding: 5px 20px 13px 20px;
         border-radius: 10px;
         background: #fff;
@@ -3446,6 +3447,8 @@
         left: 23vw;
         top: 170vh;
     }
+
+    
 
 
     .item-2 .circle{
@@ -3699,7 +3702,7 @@
         font-size: 3em;
         color: #ccc;
         position: absolute;
-        top: 250px;
+        top: 130px;
         right: 10px;
     }
     
@@ -3743,7 +3746,7 @@
         width:90px;
         border-radius: 120px;
         position: absolute;
-        top: 190px;
+        top: 150px;
 
     }
 
@@ -3751,14 +3754,14 @@
         width: 70px;
         border-radius: 120px;
         position: absolute;
-        top: 190px;
+        top: 150px;
     }
 
     .depo3 img{
         width: 70px;
         border-radius: 120px;
         position: absolute;
-        top: 190px;
+        top: 150px;
     }
 
     /*Fim dos Depoimentos*/
@@ -3859,4 +3862,3 @@
     }
 
 }
-
