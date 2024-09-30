@@ -3255,7 +3255,7 @@
     /*Hero*/
 
     .hero{
-        background-color: blue;
+        background-color: goldenrod;
         width: 100vw;
         height: 100vh;
         flex-direction: column !important;
