@@ -3202,7 +3202,7 @@
     /*Header*/
 
     header{
-        background-color: blue;
+        background-color: goldenrod;
         width: 100vw;
         height: 7vh;
         display: flex;
@@ -3391,8 +3391,8 @@
         box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7);
         border-radius: 40px;
         mask-size: cover;
-        width: 50vw;
-        height: 58vh;
+        width: 52vw;
+        height: 55vh;
         left: 23vw;
         top: 110vh;
     }
@@ -3441,8 +3441,8 @@
         box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7);
         border-radius: 40px;
         mask-size: cover;
-        width: 47vw;
-        height: 50vh;
+        width: 52vw;
+        height: 55vh;
         left: 23vw;
         top: 170vh;
     }
@@ -3455,7 +3455,7 @@
         border-radius: 50%;
         position: relative;
         top: 100px;
-        left: 50px;
+        left: 66px;
     }
 
     .details{
@@ -3485,8 +3485,8 @@
         background-color: whitesmoke;
         box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7);
         border-radius: 40px;
-        width: 47vw;
-        height: 50vh;
+        width: 52vw;
+        height: 53vh;
         left: 23vw;
         top: 230vh;
     }
@@ -3499,7 +3499,7 @@
         border-radius: 50%;
         position: relative;
         top: 100px;
-        left: 55px;
+        left: 66px;
 
     }
 
@@ -3552,8 +3552,8 @@
         mask-size: cover;
         position: absolute;
         border-radius: 40px;
-        width: 47vw;
-        height: 50vh;
+        width: 52vw;
+        height: 55vh;
         left: -7vw;
         top: 280vh;
        
@@ -3568,7 +3568,7 @@
         border-radius: 50%;
         position: relative;
         top: 100px;
-        left: 55px;
+        left: 66px;
 
     }
     .item-4 button{
@@ -3592,12 +3592,12 @@
         background-color: whitesmoke;
         box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7);
         border: 2px solid;
-        top: 20vh;
+        top: 25vh;
         mask-size: cover;
         border-radius: 40px;
         position: relative;
-        width: 47vw;
-        height: 50vh;
+        width: 52vw;
+        height: 55vh;
         left: -7.5vw;
     
     }
@@ -3615,7 +3615,7 @@
         border-radius: 50%;
         position: relative;
         top: 100px;
-        left: 50px;
+        left: 66px;
         
         
     }
