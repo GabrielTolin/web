@@ -3953,7 +3953,7 @@
     .down{
         position: relative;
         z-index: 0;
-        top: 86.2vh;
+        top: 85.5vh;
     
     }
 
@@ -3989,7 +3989,7 @@
         margin-left: 10vw;
         margin-top: 5vw;
         margin-right:10vw;
-        height: 85vh;
+        height: 75vh;
         width: 76vw;
         padding: 5px 20px 13px 20px;
         border-radius: 10px;
@@ -4032,7 +4032,7 @@
 
     .box-txt{
         padding: 15px;
-        
+        font-size: small;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -4202,7 +4202,7 @@
 
     .cards2 .up{
        position: absolute;
-       top: 303vh;
+       top: 303.5vh;
        
     }
 
