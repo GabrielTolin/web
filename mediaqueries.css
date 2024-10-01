@@ -3285,7 +3285,7 @@
     .down{
         position: relative;
         z-index: 0;
-        top: 86.2vh;
+        top: 85.5vh;
     
     }
 
@@ -3530,7 +3530,679 @@
 
     .cards2 .up{
        position: absolute;
-       top: 283vh;
+       top: 281vh;
+       
+    }
+
+
+    .cards5{
+        background-color: blueviolet;
+        height: 135vh;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+    }
+
+
+    /*Card4*/
+    .item-4{
+        background-color: whitesmoke;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7);
+        margin-top: 10vh;
+        border: 2px solid;
+        mask-size: cover;
+        position: absolute;
+        border-radius: 40px;
+        width: 52vw;
+        height: 55vh;
+        left: -7vw;
+        top: 300vh;
+       
+    }
+
+  
+
+    .item-4 .circle{
+        width: 100px;
+        height: 100px;
+        background: blueviolet;
+        border-radius: 50%;
+        position: relative;
+        top: 100px;
+        left: 66px;
+
+    }
+    .item-4 button{
+        background-color:blueviolet;
+        color: white;
+        border-radius: 10px;
+        width: 20vw;
+        height: 3vh;
+
+    }
+
+    .item-4 button:hover{
+        background-color: green;
+    }
+
+    /*Fim do Card4*/
+
+    /*Card5*/
+
+    .item-5{
+        background-color: whitesmoke;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7);
+        border: 2px solid;
+        top: 25vh;
+        mask-size: cover;
+        border-radius: 40px;
+        position: relative;
+        width: 52vw;
+        height: 55vh;
+        left: -7.5vw;
+    
+    }
+
+
+    .item-5:hover{
+        transform: rotateY(360deg) scale(1.1);
+    }
+
+
+    .item-5 .circle{
+        width: 100px;
+        height: 100px;
+        background: green;
+        border-radius: 50%;
+        position: relative;
+        top: 100px;
+        left: 66px;
+        
+        
+    }
+
+    .item-5 button{
+        background-color:green;
+        color: white;
+        border-radius: 10px;
+        width: 20vw;
+        height: 3vh;
+    }
+
+
+
+    /*Fim do Card5*/
+
+
+    /*Fim da parte de baixo dos cards*/
+
+    /*Depoimentos*/
+
+    .depo .up{
+        position: absolute;
+        top: 443vh;
+       
+    }
+
+
+    .depo{
+        width: 100vw;
+        height: 130vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;  
+        background-color: blue;
+        
+    }
+
+
+    .depoimentos{ 
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width:100vw;
+        z-index: 2;
+    }
+
+    .relato{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        height: 30vh;
+        padding: 20px;
+        background-color: #fff;
+        padding: 15px;
+        box-shadow: 10px 10px 18px rgba(0, 0, 0, 0.9);
+        position: relative;
+        border-radius: 20px;
+    }
+
+    .texto {
+        font-size: 1em;
+        line-height: 1.3;
+        color: #333;
+        position: relative;
+        padding-left: 40px;
+    }
+    
+    .texto::before {
+        content: "“";
+        font-size: 3em;
+        color: #ccc;
+        position: absolute;
+        top: -10px;
+        left: 10px;
+    }
+    
+    .texto::after {
+        content: "”";
+        font-size: 3em;
+        color: #ccc;
+        position: absolute;
+        top: 130px;
+        right: 10px;
+    }
+    
+    .autor {
+        text-align: right;
+        font-style: italic;
+        color: #666;
+        margin-top: 20px;
+    }
+
+    .depo1{
+        background-color: whitesmoke;
+        width: 60vw;
+        height: 30vh;
+        border-radius: 20px;
+        margin-left: 20vw;
+        margin-top: 5vh;
+        
+    }
+
+    .depo2{
+        background-color: whitesmoke;
+        width: 60vw;
+        height: 30vh;
+        border-radius: 20px;
+        margin-left: 20vw;
+        margin-top: 8vh;
+    }
+
+    .depo3{
+        background-color: whitesmoke;
+        width: 60vw;
+        height: 30vh;
+        border-radius: 20px;
+        margin-left: 20vw;
+        margin-top: 8vh;
+    }
+
+    .depo1 img{
+
+        width:90px;
+        border-radius: 120px;
+        position: absolute;
+        top: 150px;
+
+    }
+
+    .depo2 img{
+        width: 70px;
+        border-radius: 120px;
+        position: absolute;
+        top: 150px;
+    }
+
+    .depo3 img{
+        width: 70px;
+        border-radius: 120px;
+        position: absolute;
+        top: 150px;
+    }
+
+    /*Fim dos Depoimentos*/
+
+    /*Formulario*/
+
+    .formulario{
+        width: 100vw;
+        height: 75vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .col-right input{
+        margin-right: 11px;
+        
+    }
+    
+    .col-right button{
+        border: 2px solid black;
+        border-radius: 40px;
+        width: 30vw;
+        height: 3vh;
+        background-color: green;
+        color: white;
+        font-size: 18px;
+        margin-top: 30px;
+        margin-left: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+               
+        
+    }
+
+    .box-form{
+        height: 70vh;
+        width: 80vw;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+
+    .col-left{
+        width: 50vw;
+    }
+
+    .col-right{
+        width: 50vw;
+    }
+
+
+
+          /*Footer*/
+
+    footer{
+        height: 50vh;
+    }
+
+
+
+    .footer-diagonal {
+        position: relative;
+        background-color: blue;
+        color: white;
+        padding: 60px 0;
+        text-align: center;
+        overflow: hidden;
+        width: 100vw;
+    }
+    
+    
+    .footer-diagonal::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: blueviolet;
+        transform: skewY(-22deg); 
+        transform-origin: top left;
+        z-index: 0; 
+        pointer-events: none; 
+    }
+    
+    
+    .footer-content {
+        position: relative;
+        bottom: 15px;
+        z-index: 1;
+
+    }
+    
+    .footer-content p {
+        margin: 0;
+        font-size: 18px;
+    }
+
+}
+
+@media screen and (max-width: 395px){
+     
+    /*Header*/
+
+    header{
+        background-color: goldenrod;
+        width: 100vw;
+        height: 7vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .navbar{
+        background-color: white;
+        border-radius: 50px;
+        margin-top: 70px;
+        width: 95%;
+        height: 9vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logo{
+        width: 200px;
+        height: 9vh;
+        border-radius: 50px;
+        animation-name: none;
+    }
+
+    
+
+    .nav-links{
+        border-radius: 50px;
+        width: 400px;
+        height: 9vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .nav-links a {
+        text-decoration: none;
+        color: black;
+        font-weight: bolder;
+    }
+
+    .nav-links a:hover{
+        color: blue;
+    }
+
+  
+    
+    /*Fim do Header*/
+
+    /*Hero*/
+
+    .hero{
+        background-color: goldenrod;
+        width: 100vw;
+        height: 100vh;
+        flex-direction: column !important;
+    }
+
+    .letra{ 
+        font-size: x-large;
+        text-align: center;
+        width: 75vw;
+        height: 60vh;
+        position: absolute;
+        top: 20vh;
+        left: 10vw;
+        color: white;
+    }
+
+    .banner img{
+        position: absolute;
+        width: 180px;
+        top: 50vh;
+        right: 100px;
+        transform: rotate(18deg);
+        z-index: 2;
+
+    }
+
+    .down{
+        position: relative;
+        z-index: 0;
+        top: 86.2vh;
+    
+    }
+
+
+    /*Fim da Hero Section*/
+    /*Modais*/
+
+    .modalDialog {
+        position: fixed;
+        font-family: Arial, Helvetica, sans-serif;
+        width: 100vw;
+        height: 100%;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: rgba(0, 0, 0, 0.8);
+        z-index: 99999;
+        opacity: 0;
+        -webkit-transition: opacity 400ms ease-in;
+        -moz-transition: opacity 400ms ease-in;
+        transition: opacity 400ms ease-in;
+        pointer-events: none;
+    }
+
+    .modalDialog:target {
+        opacity: 1;
+        pointer-events: auto;
+    }
+
+    .modalDialog > div {
+        position: relative;
+        margin-left: 10vw;
+        margin-top: 5vw;
+        margin-right:10vw;
+        height: 85vh;
+        width: 76vw;
+        padding: 5px 20px 13px 20px;
+        border-radius: 10px;
+        background: #fff;
+        background: -moz-linear-gradient(#fff, #999);
+        background: -webkit-linear-gradient(#fff, #999);
+        background: -o-linear-gradient(#fff, #999);
+    }
+
+    .close {
+        background: #606061;
+        color: #FFFFFF;
+        line-height: 50px;
+        position: absolute;
+        right: -12px;
+        text-align: center;
+        top: -10px;
+        width: 50px;
+        height: 50px;
+        text-decoration: none;
+        font-weight: bold;
+        border-radius: 25px;
+        box-shadow: 1px 1px 3px #000;
+    }
+
+    .close:hover {
+        background: #00d9ff;
+    }
+
+    .img-pop{
+        
+        height: 40vh;
+        width: 20vw;
+    }
+
+    .box-pop{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .box-txt{
+        padding: 15px;
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    /*Fim dos modais*/
+    /*Cards*/
+
+    /*Parte de cima dos cards*/
+    .cards1{
+    
+        background-color: blue;
+        width: 100vw;
+        height: 200vh;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    /*Card1*/
+
+    .item-1{
+        border: 2px solid;
+        background-color: whitesmoke;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7);
+        border-radius: 40px;
+        mask-size: cover;
+        width: 52vw;
+        height: 55vh;
+        left: 23vw;
+        top: 110vh;
+    }
+
+    
+
+    .item-1 .circle {
+        width: 100px;
+        height: 100px;
+        background: rgb(223, 82, 105);
+        border-radius: 50%;
+        position: relative;
+        top: 100px;
+        left: 66px;
+    }
+
+
+
+    .circle img{
+        position: absolute;
+        top: -50px;
+        left: 8px;
+        width: 85px;
+        height: 200px;
+        rotate: 15deg;
+
+    }
+
+    .item-1 button{
+        background-color: rgb(219, 101, 120);
+        color: white;
+        border-radius: 10px;
+        width: 20vw;
+        height: 3vh;
+    
+    }
+
+    .item-1 button:hover{
+        background-color: green;
+    }
+    /*Fim do Card1*/
+
+    /* Card2*/
+    .item-2{
+        background-color: whitesmoke;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7);
+        border-radius: 40px;
+        mask-size: cover;
+        width: 52vw;
+        height: 55vh;
+        left: 23vw;
+        top: 170vh;
+    }
+
+    
+
+
+    .item-2 .circle{
+        width: 100px;
+        height: 100px;
+        background: rgb(11, 149, 149);
+        border-radius: 50%;
+        position: relative;
+        top: 100px;
+        left: 66px;
+    }
+
+    .details{
+        width:27vw;
+        height: 22vh;
+        position: relative;
+        left: 50px;
+        top: 160px;
+    }
+
+    .item-2 button{
+        background-color:rgb(11, 149, 149);;
+        color: white;
+        border-radius: 10px;
+        width: 20vw;
+        height: 3vh;
+    }
+
+    .item-2 button:hover{
+        background-color: green;
+    }
+
+    /*Fim do Card2*/
+
+    /*Card3*/
+    .item-3{
+        background-color: whitesmoke;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7);
+        border-radius: 40px;
+        mask-size: cover;
+        width: 60vw;
+        height: 73vh;
+        left: 18vw;
+        top: 240vh;
+    }
+
+
+    .item-3 .circle{
+        width: 100px;
+        height: 100px;
+        background: goldenrod;
+        border-radius: 50%;
+        position: relative;
+        top: 100px;
+        left: 66px;
+
+    }
+
+    .item-3 button{
+        background-color:goldenrod;
+        color: white;
+        border-radius: 10px;
+        width: 20vw;
+        height: 3vh;
+        
+    }
+
+   
+
+    .item-3 button:hover{
+        background-color: green;
+    }
+
+    /*Fim do Card3*/
+
+
+
+
+    /*Fim da parte de cima dos cards*/
+    /*Parte de baixo dos cards*/
+
+
+
+    .cards2 .up{
+       position: absolute;
+       top: 280vh;
        
     }
 
