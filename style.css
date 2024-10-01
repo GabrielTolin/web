@@ -37,7 +37,7 @@ header{
 
 @keyframes move {
     from{ transform: translateX(10px)}
-    to{ transform: translateX(850px)}
+    to{ transform: translateX(600px)}
     
 }
 
@@ -75,7 +75,7 @@ svg{
 .hero{
     background-color: goldenrod;
     width: 100vw;
-    height: 65vh;
+    height: 75vh;
 }
 
 .letra{
@@ -93,7 +93,7 @@ svg{
 .banner img{
     position: absolute;
     width: 200px;
-    top: 250px;
+    top: 100px;
     right: 200px;
     transform: rotate(18deg);
     z-index: 2;
@@ -102,7 +102,7 @@ svg{
 
 .down{
     position: relative;
-    top: 18px;
+    top: 65px;
     z-index: 0;
 }
 
@@ -216,9 +216,10 @@ svg{
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7);
     border-radius: 40px;
     border: 2px solid;
-    width: 17vw;
-    height: 48vh;
-    transition: transform 1s;
+    mask-size: cover;
+    width: 23vw;
+    height: 55vh;
+    transition: transform 1.5s;
     transform-style: preserve-3d;
     mask: url(1.png);
 }
@@ -228,13 +229,13 @@ svg{
 }
 
 .item-1 .circle {
-    width: 150px;
-    height: 150px;
+    width: 130px;
+    height: 130px;
     background: rgb(223, 82, 105);
     border-radius: 50%;
     position: relative;
     top: 50px;
-    left: 90px;
+    left: 110px;
 }
 
 
@@ -242,7 +243,7 @@ svg{
 .circle img{
     position: absolute;
     top: -40px;
-    left: 35px;
+    left: 15px;
     width: 100px;
     height: 210px;
     rotate: 15deg;
@@ -254,7 +255,7 @@ svg{
     color: white;
     border-radius: 10px;
     width: 7vw;
-    height: 3vh;
+    height: 4vh;
 }
 
 .item-1 button:hover{
@@ -268,11 +269,12 @@ svg{
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7);
     border-radius: 40px;
     border: 2px solid;
-    width: 17vw;
-    height: 48vh;
-    transition: transform 1s;
+    mask-size: cover;
+    width: 23vw;
+    height: 55vh;
+    transition: transform 1.5s;
     transform-style: preserve-3d;
-    mask: url(2.png);
+    mask: url(1.png);
    
 }
 
@@ -281,21 +283,21 @@ svg{
 }
 
 .item-2 .circle{
-    width: 150px;
-    height: 150px;
+    width: 130px;
+    height: 130px;
     background: rgb(11, 149, 149);
     border-radius: 50%;
     position: relative;
-    top: 70px;
-    left: 90px;
+    top: 50px;
+    left: 110px;
 }
 
 .details{
-    width:8vw;
+    width:15vw;
     height: 15vh;
     position: relative;
-    left: 90px;
-    top: 120px;
+    left: 60px;
+    top: 100px;
     text-align: center;
 }
 
@@ -319,11 +321,11 @@ svg{
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7);
     border-radius: 40px;
     border: 2px solid;
-    width: 17vw;
-    height: 48vh;
-    transition: transform 1s;
+    width: 23vw;
+    height: 55vh;
+    transition: transform 1.5s;
     transform-style: preserve-3d;
-    mask: url(3.png);
+    mask: url(1.png);
 }
 
 .item-3:hover{
@@ -331,13 +333,13 @@ svg{
 }
 
 .item-3 .circle{
-    width: 150px;
-    height: 150px;
+    width: 130px;
+    height: 130px;
     background: goldenrod;
     border-radius: 50%;
     position: relative;
     top: 50px;
-    left: 90px;
+    left: 110px;
 
 }
 
@@ -366,7 +368,7 @@ svg{
 
 .up{
     position: absolute;
-    margin-top: -15px;
+    margin-top: -75px;
     
 
 }
@@ -390,11 +392,11 @@ svg{
     margin-top: 10vh;
     border: 2px solid;
     border-radius: 40px;
-    width: 17vw;
-    height: 48vh;
+    width: 23vw;
+    height: 55vh;
     transition: transform 1.5s;
     transform-style: preserve-3d;
-    mask: url(4.png);
+    mask: url(1.png);
     
 }
 
@@ -403,13 +405,13 @@ svg{
 }
 
 .item-4 .circle{
-    width: 150px;
-    height: 150px;
+    width: 130px;
+    height: 130px;
     background: blueviolet;
     border-radius: 50%;
     position: relative;
     top: 50px;
-    left: 90px;
+    left: 110px;
 
 }
 .item-4 button{
@@ -435,11 +437,11 @@ svg{
     border: 2px solid;
     margin-top: 10vh;
     border-radius: 40px;
-    width: 17vw;
-    height: 48vh;
+    width: 23vw;
+    height: 55vh;
     transition: transform 1.5s;
     transform-style: preserve-3d;
-    mask: url(5.png);
+    mask: url(1.png);
  
    
 }
@@ -451,13 +453,13 @@ svg{
 
 
 .item-5 .circle{
-    width: 150px;
-    height: 150px;
+    width: 130px;
+    height: 130px;
     background: green;
     border-radius: 50%;
     position: relative;
-    top: 70px;
-    left: 90px;
+    top: 50px;
+    left: 110px;
     
 }
 
@@ -485,7 +487,7 @@ svg{
 
 .depo{
     width: 100vw;
-    height: 60vh;
+    height: 70vh;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -507,7 +509,7 @@ svg{
     display: flex;
     flex-direction: column;
     gap: 20px;
-    height: 30vh;
+    height: 40vh;
     padding: 20px;
     background-color: #fff;
     padding: 20px;
@@ -551,7 +553,7 @@ svg{
 
 .depo1{
     background-color: whitesmoke;
-    width: 20vw;
+    width: 25vw;
     height: 30vh;
     border-radius: 20px;
     
@@ -559,14 +561,14 @@ svg{
 
 .depo2{
     background-color: whitesmoke;
-    width: 20vw;
+    width: 25vw;
     height: 30vh;
     border-radius: 20px;
 }
 
 .depo3{
     background-color: whitesmoke;
-    width: 18vw;
+    width: 25vw;
     height: 30vh;
     border-radius: 20px;
 }
@@ -603,7 +605,7 @@ svg{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 25vh;
+    height: 40vh;
 }
 
 .box-form{
@@ -612,7 +614,7 @@ svg{
     border-radius: 50px;
     color: black;
     width: 80vw;
-    height: 20vh;
+    height: 30vh;
     display: flex;
     align-items: center;
     flex-direction: row;
